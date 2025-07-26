@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAF6F3;
+    color: #1e1e1e;
+}
+
+h1, h2, h3, h4, p, a, ul, li, span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    font-weight: bold;
+    padding: 2em;
+    display: flex;
+    justify-content: end;
+    margin-bottom: -6em;
+    position: relative;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 2em;
+    font-size: 1.25em;
+}
+
+.main-container {
+    display: flex;
+}
+
+.title {
+    writing-mode: vertical-rl;
+    font-weight: bold;
+    font-size: 8em;
+    margin: 0;
+    margin-top: -5px;
+    position: fixed;
+}
+
+.category {
+    margin-bottom: 2em;
+}
+
+.subheader {
+    margin: 0;
+    margin-bottom: 10px;
+}

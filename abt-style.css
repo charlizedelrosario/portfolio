@@ -1,0 +1,61 @@
+.header {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    flex: 60%;
+    padding: 0 3em 15em 3em;
+}
+
+.vertical-line {
+    border-left: 6px solid #1e1e1e;
+    /* height: 250px; */
+    top: 0;
+    margin-bottom: 2em;
+    padding: 6em 12em 4em;
+}
+
+.textbox {
+    padding-right: 20%;;
+}
+
+.textblock {
+    margin: 0 0 1em;
+}
+
+.sub-textblock {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.sub-textblock:not(:first-of-type) {
+    margin-top: 0.5em;
+}
+
+.sub-textblock h3:first-child, h4:first-child {
+    flex: 50%;
+}
+
+.sub-textblock > h3, h4 {
+    margin: 0 0 0.25em;
+    font-size: 1em;
+}
+
+.textblock > p, h3, h4, ul, li {
+    margin: 0 0 0.25em;
+    font-size: 1em;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 25px;
+    row-gap: 1em;
+}
+
+.skills > p {
+    margin: 0;
+}
